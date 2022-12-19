@@ -1,12 +1,13 @@
+[![Go](https://github.com/duaneking/gozodiacs/actions/workflows/go.yml/badge.svg)](https://github.com/duaneking/gozodiacs/actions/workflows/go.yml)
+
 # GoZodiacs
 
 Golang/Go lib to calculate zodiac signs for both Western (monthly) and Chinese (yearly) astrology.
 
-A simple module in GoLang that handles multiple zodiac types correctly without the bad/dead 
-code or poor test posture of other zodiac libraries available.
+A simple module in GoLang that handles multiple zodiac types correctly, without the bad/dead code or poor test posture of other zodiac libraries available.
 
 # Why
-I needed a simple topic I could publish a "go module" on that I could read the wikipedia page of, understand, and fully Implement, and give 100% code coverage to.. Without it being something that a company would consider a huge enterprise problem that would get political or be fought over. I honestly just want to show how to do code coverage.
+I needed a simple topic I could publish a "go module" on that I could read the wikipedia page of, understand, and fully Implement, and give 100% code coverage to.. Without it being something that a company would consider a huge enterprise problem that would get political or be fought over. I honestly just want to show others how to do code coverage.
 
 # Unit Test Coverage
 This module has 100% test coverage using standard "go" tools and uses no non-system level depdencies, by design.
@@ -47,7 +48,7 @@ go test -v ./... -coverprofile=coverage.out
 go tool cover -html=coverage.out
 ```
 
-Or on Windows, you can just run the "cover.bat" script by typeing "cover" in the module durectory.
+Or on Windows, you can just run the "cover.bat" script by typeing "cover" in the module directory.
 
 You should be greeted with output that looks like this at the bottom of your console:
 
