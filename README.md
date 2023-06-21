@@ -6,6 +6,25 @@ Golang/Go lib to calculate zodiac signs for both Western (monthly) and Chinese (
 
 A simple module in GoLang that handles multiple zodiac types correctly, without the bad/dead code or poor test posture of other zodiac libraries available.
 
+# Usage
+
+From the comand line add it to your modules dependencies:
+
+```go get github.com/duaneking/gozodiacs```
+
+Then in your code:
+
+```
+import (
+	zod "github.com/duaneking/gozodiacs"
+)
+
+western := zod.GetWesternZodiacsForDate(dob)
+
+eastern := zod.GetChineseZodiacSign(dob)
+  
+```
+
 # Why
 I needed a simple topic I could publish a "go module" on that I could read the wikipedia page of, understand, and fully Implement, and give 100% code coverage to.. Without it being something that a company would consider a huge enterprise problem that would get political or be fought over. I honestly just want to show others how to do code coverage.
 
