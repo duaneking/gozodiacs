@@ -45,7 +45,7 @@ All supported types have 100% code coverage because I dont want to ever have to 
 
 Please Note: 100% code coverage in GoLang code is not a guarantee of a lack of bugs in GoLang code. This is in part due to GoLang's poor design mistakes when it comes to the "time" module.
 
-One of the biggest issues many have with GoLang is that GoLang handles time formatting badly, using arbitrary format strings and date values that are, strictly speaking, not always compatiable with the worlds standards on issues of time.
+One of the biggest issues many have with GoLang is that GoLang handles time formatting badly, using arbitrary format strings and date values that are, strictly speaking, not always compatible with the worlds standards on issues of time.
 
 This is a known issue that will create issues in the future for users of this library after I have been dead for a few thousand years... but as this is known issue, with known problems, I felt that simply getting this module to 100% code coverage was enough on my end as a consumer of these time api's to have done my due diligence as an engineer.
 
@@ -53,7 +53,7 @@ Yet as an engineer, I need to bubble up the risk, and communicate that trade off
 
 Good: This library can work flawlessly for thousands of years using integer based constants, having been unit tested and fully proven in 100% of every possible tested case to be accurate and complete for that time.
 
-Bad: After I have been dead for several thousand years, this library may still exist long enough that it would reach a time period that will create issues for its users due to solar clock drift and the overflowing nature of time itself. At that time, it might need a single line of code updated after a few thousand years of perfect utility, to mitgate a small defect in the golang time module.. unless they allready fixed it by then.
+Bad: After I have been dead for several thousand years, this library may still exist long enough that it would reach a time period that will create issues for its users due to solar clock drift and the overflowing nature of time itself. At that time, it might need a single line of code updated after a few thousand years of perfect utility, to mitgate a small defect in the golang time module.. unless they already fixed it by then.
 
 # How to Run The Unit Tests With coverage On Windows Using Standard GoLang
 
